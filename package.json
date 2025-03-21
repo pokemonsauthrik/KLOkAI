@@ -1,0 +1,17 @@
+{
+  "name": "klok-bot",
+  "version": "1.0.0",
+  "description": "KlokApp Chat Automation",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "p-limit": "^3.1.0",
+    "http-proxy-agent": "^7.0.2",
+    "https-proxy-agent": "^7.0.4"
+  },
+  "author": "",
+  "license": "MIT"
+}
