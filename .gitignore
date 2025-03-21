@@ -150,3 +150,11 @@ groq-api.key
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# 环境配置
+.env
+.env.*
+!.env.example
+
+# 密钥文件
+*.key

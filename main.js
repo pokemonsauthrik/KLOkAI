@@ -6,6 +6,9 @@ const {
   registerKeyHandler,
   render,
   updateStatus,
+  updateUserInfo,
+  updatePointsDisplay,
+  updateRateLimitDisplay,
   widgets,
 } = require("./src/ui");
 const {
@@ -16,7 +19,7 @@ const {
   manualSwitchAccount,
   getRunningState,
 } = require("./src/automation");
-const { auth } = require("./src/api");
+const { auth, points, rateLimit } = require("./src/api");
 const {
   log,
   logToFile,
